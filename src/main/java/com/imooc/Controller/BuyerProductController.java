@@ -7,7 +7,7 @@ import com.imooc.dataobject.ProductCategory;
 import com.imooc.dataobject.ProductInfo;
 import com.imooc.service.CategoryService;
 import com.imooc.service.ProductService;
-import com.imooc.utils.ResultVOUitl;
+import com.imooc.utils.ResultVOUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -71,6 +71,6 @@ public class BuyerProductController {
 //        resultVO.setMsg("成功");
 //        return  resultVO;
 
-        return ResultVOUitl.success(productVOList);
+        return ResultVOUtil.success(productVOList);
     }
 }
